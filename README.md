@@ -2,11 +2,18 @@ Arduino RF Temperature & Humidity Data Logger
 ==============
 multiple arduinos hooked up throughout the house 
 
-**Overview:** 
+**Overview** 
 
 
-**Files Used:**
-- 
+**Software Requirements**
+- pySerial - allows python to read from the serial port
+- DHT-sensor-library - DHT sensor library from adafruit
+
+**Files**
+- ArduinoTempLogger.ino - arduino sketch
+- OpenSourceRFDHT11TempLogging.fzz - fritzing schematic
+- pythonArduinoTempLogger.py - python script
+- arduinotemp.csv - csv file the python script logs data to
 
 **Materials Used**
 - two (2) OpenSource RF arduino shields
