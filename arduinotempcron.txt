@@ -1,0 +1,5 @@
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+#execute by typing crontab <filename>
+# m h  dom mon dow   command
+  * */1 * * *    /PATH/TO/FILES/arduinotemp.sh
+
