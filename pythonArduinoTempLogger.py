@@ -27,19 +27,15 @@ time.sleep(10)
 localtime = time.asctime( time.localtime(time.time()) )
 
 # read serial data from arduino and write to file
-# the loop first sends data to arduino 1 and writes the response
-for x in range (0,1):
-   ser.write('2')
-   localtime = time.asctime( time.localtime(time.time()) )
-   fout = open ('arduinotemp.csv', 'a')
-   fout.write(localtime + '\t ' + str(ser.readline()))
-   fout.close()
-   time.sleep(20)
+ser.write('2')
+fout = open ('arduinotemp.csv', 'a')
+fout.write(localtime + '\t ' + str(ser.readline()))
+fout.close()
+time.sleep(20)
 # pause 20 seconds then send message from arduino 2 and writes the response
-   ser.write('4')
-   localtime = time.asctime( time.localtime(time.time()) )
-   fout = open ('arduinotemp.csv', 'a')
-   fout.write(localtime + '\t ' + str(ser.readline()))
-   fout.close()
-(x)
+ser.write('4')
+fout = open ('arduinotemp.csv', 'a')
+fout.write(localtime + '\t ' + str(ser.readline()))
+fout.close()
+
 
