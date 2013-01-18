@@ -7,14 +7,13 @@ This project uses multiple arduinos outfitted with the OpenSourceRF wireless shi
 
 This set up would also likely work with standard RF transmitters/receivers and the wire arduino library. 
 
-The sketches on the arduino waits to receive a character from the python script. The python script sends the appropriate information. Once the information is read, the arduino response with the temperature and humidity reading from the DHT11. 
+The sketches on the arduino waits to receive a character from the python script. The python script sends the appropriate information. Once the information is read, the arduino responds with the temperature and humidity reading from the DHT11. 
 
 **tutorial & photos**
 
 **Software Used**
 - pySerial - allows python to read from the serial port
 - DHT-sensor-library - DHT sensor library from adafruit
-- arduino IDE
 
 **Files**
 - arduinotemp.csv - csv file the python script logs data to
