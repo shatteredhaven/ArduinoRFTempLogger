@@ -10,7 +10,7 @@ This set up would also likely work with standard RF transmitters/receivers and t
 The sketches on the arduino waits to receive a character from the python script. The python script sends the appropriate information. Once the information is read, the arduino responds with the temperature and humidity reading from the DHT11. 
 
 **tutorial & photos**
-
+http://www.shatteredhaven.com/2013/01/1400365-arduino-powered-wireless.html
 
 **Software Used**
 - pySerial - allows python to read from the serial port
