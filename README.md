@@ -10,7 +10,7 @@ This set up would also likely work with standard RF transmitters/receivers and t
 The sketches on the arduino waits to receive a character from the python script. The python script sends the appropriate information. Once the information is read, the arduino responds with the temperature and humidity reading from the DHT11. 
 
 **tutorial & photos**
-forthcoming
+
 
 **Software Used**
 - pySerial - allows python to read from the serial port
@@ -20,8 +20,8 @@ forthcoming
 - arduinotemp.csv - csv file the python script logs data to
 - arduinotemp.sh - shell script that executes the python script (if cron job will not execute python directly)
 - arduinotempcron.txt - cron job example
-- ArduinoTempLogger1.ino - arduino sketch example
-- ArduinoTempLogger2.ino - second arduino sketch example
+- ArduinoTempLogger1.ino - arduino1 sketch example
+- ArduinoTempLogger2.ino - arduino2 sketch example
 - OpenSourceRFDHT11TempLogging.fzz - fritzing schematic
 - pythonArduinoTempLogger.py - python script
 
