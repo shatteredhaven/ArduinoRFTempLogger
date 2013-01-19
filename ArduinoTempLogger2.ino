@@ -24,12 +24,12 @@ void loop() {
 
 if (Serial.available()) {
  val = Serial.read();
-  if (val > '1' && val <='2') { //only if a 2 is received
+  if (val > '3' && val <='4') { //only if a 4 is received
 
     if (isnan(t) || isnan(h)) {
       Serial.println("Failed to read from DHT");
   }   else  {  
-      Serial.print("Bedroom ");
+      Serial.print("Kitchen ");
       Serial.print("Humidity: "); 
       Serial.print(h);
       Serial.print(" %");
