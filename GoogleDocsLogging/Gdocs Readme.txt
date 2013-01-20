@@ -2,6 +2,8 @@ Google Spreadsheet Readme
 
 This python script is based on the Adafruit DHT Humidity Sensing on Raspberry Pi with GDocs Logging (http://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/overview).
 
+This python script will place the information from each arduino on a different tab of your google drive spreadsheet. 
+
 There are a few requirements before you can begin logging the arduino data to google docs:
 1) create a spreadsheet on google drive
 2) delete rows 2-100 on the spreadsheet 
